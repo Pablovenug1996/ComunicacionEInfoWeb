@@ -1,0 +1,111 @@
+/*********************  MENU NAV ******************************/
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    height: 8rem;
+}
+
+.optmenu{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    transition: all 1s solid;
+    color: #ed1c24 !important;
+}
+
+.optmenu:hover{
+    color: #ed1c24 !important;
+    background-color: #fff;
+    transition: all 1s solid;
+}
+
+.optmenu2:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all 1s solid;
+}
+
+.optmenu:active{
+    background-color: #fed205;
+}
+
+.logo-tico{
+    height: 6.5rem;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #21265794;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover{
+    background-color: #000000;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: #fff;
+}
+
+/* lineas */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }         
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }   
+
+
+
+.espacio {
+    padding-top: 120px;
+}
+
+
+/* Contacto */
+.espacioRedes {
+    display: inline-block;
+
+}
+
+div.animacion1:hover i {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+}
+div.animacion1:hover i {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+
+/*********************  PIE DE PAGINA ******************************/
+
+footer {
+    color: #fff;
+    padding-top: 10px;
+    background-color: #004892;
+}
+
+
+
+/********************* MEDIAS QUERYS ******************************/
+
+@media (max-width: 575px) {
+    html {
+        font-size: 1rem;
+    }
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+    p {
+        font-size: 1.1rem !important;
+    }
+    
+}
+
+

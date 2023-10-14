@@ -1,0 +1,73 @@
+/*MEDIAS QUERYS*/
+
+/* Extra Small devices (landscape phones, 576px and down)*/
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+        font-family: 'Roboto';
+        margin: 0;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+
+    }
+    .fila-equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .fila-equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: 'Roboto';
+        margin: 0;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+ }
+
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (max-width: 768px) { 
+    .fila-equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .fila-equipo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+ 
+}

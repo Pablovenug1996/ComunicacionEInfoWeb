@@ -1,0 +1,184 @@
+/********************* ESTILOS GENRALES ******************************/
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+}
+
+.fondo1 {
+    background-color: #fcb315;
+    color: #fff;
+}
+
+.fondo2 {
+    background-color: #004892;
+}
+
+.fondo3 {
+    background-color: #f36b22;
+    color: #004892;
+    font-style: bold;
+}
+
+.row>* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+
+.banner-nosotros {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-nosotros>img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*********************  SECCIÓN EQUIPO ******************************/
+
+.fila-equipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************  SECCIÓN HISTORIA ******************************/
+
+.fila-historia {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************  SECCIÓN MENÚ ******************************/
+
+.tarjetas-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.espaciocard {
+    min-height: 380px;
+    width: 100%;
+}
+
+#cocinera{
+    max-width: 340px;
+}
+
+@media (min-width: 576px) {
+    .espaciocard {
+        width: unset;
+    }
+}
+
+/*********************  SECCIÓN CONTACTO ******************************/
+
+.banner-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-contacto>img {
+    width: 100%;
+    height: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: #fff;
+    border-color: #f36b22;
+    background-color: #f36b22;
+    border-radius: 0.4rem;
+    color: #fff;
+}
+
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+
+.btn1 {
+    color: #fff;
+    border-color: #f36b22;
+    background-color: #f36b22;
+}
+
+.btn1:hover {
+    color: #fff;
+    background-color: #004892;
+}
+
+
+
+
+/*MEDIAS QUERYS*/
+
+@media (max-width:575px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:576px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 16rem !important;
+    }
+}
+
+@media (min-width:768px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 18rem !important;
+    }
+}
