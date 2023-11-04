@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Festejos Cimarrona</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reglas.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid" id="inicio">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-white" style="padding: 10px;">Festejos Cimarrona y Mascaradas</h1>
+                <h3 class="container text-white pt-5">
+                    Hace siglos, en las soleadas costas de Puntarenas, nació un ritmo ancestral que se ha mantenido vivo y vibrante a lo largo de generaciones. Cada 24 de julio, nos reunimos en esta hermosa tierra costarricense para celebrar la esencia pura de la música y la danza: el Día de la Cimarrona.
+                </h3>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="contenedor">
+        
+        <section class="container-fluid fondo1 seccionMedia">
+            <div class="row" >
+                <div class="col-md-6 text-center contenido" >
+                    <h3 class="text-white">El calor del verano se combina con el bullicio de las calles mientras Puntarenas se llena de energía y alegría. Las melodías contagiosas de las cimarronas resuenan en el aire, invitándote a unirte a esta celebración única. Las trompetas, tambores y maracas se convierten en instrumentos de alegría que te transportarán a un mundo de fiesta y tradición.</h3>
+                </div>   
+
+                <div class="col-md-6 text-center contenido" >
+                    <img class="img-fluid" id="cimarrona2" src="imagenes/cimarrona2.jpg" alt="Cimarrona animada">
+                </div> 
+            </div>
+        </section>
+        
+        <!-- Banner Web  -->
+        <section>
+            <div class="container-fluid banner1">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3 class="container text-white pt-5">
+                            Cada cimarrona tiene su historia, su ritmo distintivo que ha sido transmitido de generación en generación. La música y la danza se entrelazan en una sinfonía de tradición y pasión. Los músicos y bailarines, ataviados con trajes coloridos y enmascarados, se convierten en portadores de una herencia que se celebra con cada nota y cada paso.
+                        </h3>
+                    </div>
+                </div>
+            </div>                
+        </section>
+        
+        <section class="container-fluid fondo1 seccionMedia">
+            <div class="row" >
+                <div class="col-md-6">
+                    <div class="text-center contenido">
+                        <div class="ratio ratio-16x9 video"> 
+                            <iframe src="https://www.youtube.com/embed/ErkzPu0Dlxo?si=7uJiHnw5KZszIEIO&amp;start=416" title="YouTube Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-md-6 text-center contenido" >
+                    <h3 class="text-white">Este 24 de julio, únete a nosotros en Puntarenas, donde la música y la danza se convierten en una experiencia única. Disfruta de la pasión, la alegría y la tradición que solo puedes encontrar en este rincón especial de Costa Rica. ¡Te esperamos en el Día de la Cimarrona, un evento que te hará sentir el ritmo en tu corazón y te dejará con la inigualable sensación de celebrar en las costas del Pacífico costarricense!</h3>
+                </div>   
+            </div>
+        </section>
+
+
+        <!-- Mapa -->
+
+        <section class="bg-light">  
+            
+            <div class="titulo">
+                <h1 class="text-white text-center fondo2">Ubicación del Evento</h1>
+            </div>
+
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.4863232987504!2d-84.85270094118621!3d9.976626398165545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa02ec97bc12403%3A0x82e02ffb61ffc059!2sEl%20Faro%20de%20Puntarenas!5e0!3m2!1ses-419!2scr!4v1699029049261!5m2!1ses-419!2scr" width="100%" height="450" allowfullscreen landing="lazy"></iframe>
+            </div>
+    
+          </section>
+
+          <!-- Formulario de suscripción  -->
+
+        <section class="container-fluid seccionSuscripcion fondo2 py-5">
+            <div class="container text-center">
+                <h2 class="suscribeteText text-white" style="color: rgb(54, 54, 233); ">Suscríbete para recibir información detallada del Evento</h2>
+
+                <img class="img-fluid pb-3" style="max-width: 200px;" src="imagenes/subscribe.svg" alt="Suscrupción">
+
+                <form id="form2">
+                    <label class="text-left" for="email" style="font-size: 1.5rem;" class="emailText emailText">Email:</label> 
+                    <input class="email" name="email" id="suscripcionTxt" type="email" placeholder="Ingrese su correo electronico">
+
+                    <p id="mensajeAlert"></p>
+                    <input class="boton enviarText" id="btnSend" type="button" value="Enviar">
+                    
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- CHAT WHATAPP -->
+    <div class="container-botonws">
+        <a href="https://walink.co/00aae4" class="" target="blank">
+            <img src="imagenes/ws.png" class="botonws" alt="">
+        </a>
+      </div>
+
+
+     <!-- FLECHA SCROLLTOP -->
+   
+     <a data-scroll id="flechabtn" class="goto-top" href="#inicio" title="Ir al inicio" onclick="topFunction()">
+        <img src="imagenes/flecha.png" class="img-fluid" alt="Flecha hacia arriba">
+    </a>
+
+
+    <footer class="container-fluid fondo1">
+        <div class="row">
+            <div class="text-center"><br>
+                <h2 class="text-white">Derechos Reservados ©</h2>
+            </div>
+            <p class="text-center text-white">(2023)</p>
+            <div class="pb-3"></div>
+        </div>
+    </footer>
+
+
+     <!-- Requisito de cargar para esconder el botón Scrolltop por medio de Jquery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+     <!-- Script de bootstrap  -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+     <!-- permite cambiar la velocidad y acelaracion usando JS -->
+     <script src="js/smooth-scroll.min.js"></script>
+ 
+     <!-- controlar el desplazamiento suave -->
+     <script src="js/elastico.js"></script>
+
+    <!-- carga la lirería emailjs  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="js/suscripcion.js"></script>
+
+</body>
+
+
+</html>

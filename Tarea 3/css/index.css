@@ -1,0 +1,237 @@
+
+h1 {
+    /* font-size: 4rem; */
+    font-family: 'Roboto';
+}
+
+h2 {
+    /* font-size: 2.5rem; */
+    font-family: 'Roboto';
+}
+
+h3 {
+    /* font-size: 2rem; */
+    font-family: 'Roboto';
+}
+
+p {
+    /* font-size: 1.3rem; */
+    font-family: 'Roboto';
+}
+
+.titulo{
+    padding: 10px;
+    background-color: #b1b1b1;
+}
+
+.contenedor{
+    min-height: calc(88.5vh);
+}
+
+.fondo1{
+    background-color: rgb(105, 181, 181);
+}
+
+.fondo2{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100vh;
+    height: 60vh;
+
+    background-image: url('../imagenes/cimarrona1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        50% 100%,
+        0 80%
+    );
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(39, 38, 38, 0.668);
+    background-color: #0000001f;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+footer{
+    width: 100vh;
+    height: 20vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    clip-path: polygon(
+        0 20%,
+        50% 0,
+        100% 20%,
+        100% 100%,
+        0 100%    
+    );
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.banner1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 50vh;
+    /*control altura del banner*/
+    height: calc(70vh);
+    background-position: center;
+    background-image: url('../imagenes/banner1.png');
+    background-color: #00000086;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(58, 54, 54, 0.342);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.seccionMedia{
+    width: 100wh;
+        height: 60vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+.contenido{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SCROLLTOP */
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+}
+
+.goto-top:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/*CHAT WHATAPP*/
+
+.container-botonws {
+    /*color de fondo imagen*/
+    background-color: #e4e4e4;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 25px;
+    padding: 5px;
+    margin-right: 10px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+/*efecto de animación imagen chat*/
+
+.botonws {
+    width: 48px;
+    transition: ease 1s;
+}
+
+
+/* .video{
+    max-width: 30rem;
+    min-width: 25rem;
+} */
+
+
+/* *********************SUSCRIPCION*********************** */
+input[type="submit"] {
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(54, 54, 233);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 2px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label{
+    color: #fff;
+}
+
+
+.alertaRoja{
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.alertaVerde{
+    color: #044c03;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.seccionSuscripcion .email {
+    width: 300px;
+    padding: 8px;
+    border-radius: 0.6rem;
+    outline: none;
+    border: none;
+    background-color: #69b6b6;
+    color: #fff;
+}
+
+#suscripcionTxt::placeholder {
+    color: #ffffffbb;
+    font-style: italic; 
+  }
+
+
